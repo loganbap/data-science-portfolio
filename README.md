@@ -81,7 +81,7 @@ Ongoing real world capstone engagement. Covers problem framing, exploratory anal
 ---
 
 ### 8. Capstone – Modeling & Recommendations *(placeholder)*
-Planned second capstone phase: predictive or explanatory models with clear feature importance explanations and practical recommendations for non-technical decision-makers.
+Planned second capstone phase: predictive or explanatory models with clear feature importance explanations and practical recommendations for non-technical decision makers.
 
 **Focus:** E2E modeling, storytelling for non-technical audiences | **Tools:** TBD
 

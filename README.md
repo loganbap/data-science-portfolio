@@ -6,7 +6,7 @@
 
 ## About Me
 
-I am a generalist data scientist and analyst with a passion for turning complex data into clear, compelling stories. My work spans the full data lifecycle — from building large-scale data pipelines to crafting visualizations that make insights accessible to any audience. I am eager to keep growing and learning, and I bring curiosity and collaboration to every project I work on.
+I am a generalist data scientist and analyst with a passion for turning complex data into clear, compelling stories. My work spans the full data lifecycle from building large scale data pipelines to crafting visualizations that make insights accessible to any audience. I am eager to keep growing and learning, and I bring curiosity and collaboration to every project I work on.
 
 **Core skills:** Python · R · PySpark · Apache Spark · Kafka · NiFi · Hive · HBase · Docker · Tableau · scikit-learn · pandas · SQL
 
@@ -32,7 +32,7 @@ I am a generalist data scientist and analyst with a passion for turning complex 
 ## Project Summaries
 
 ### 1. Lottery Randomness & ROI Storytelling
-A multi-sheet Tableau story using several lottery CSV data sources to explain how drawings behave statistically across different U.S. games. Designed histograms, bubble charts, ROI distributions, and small multiples with annotations and parameters to debunk "hot number" and "lucky day" myths — and show that typical player ROI is strongly negative.
+A multisheet Tableau story using several lottery CSV data sources to explain how drawings behave statistically across different U.S. games. Designed histograms, bubble charts, ROI distributions, and small multiples with annotations and parameters to debunk "hot number" and "lucky day" myths — and show that typical player ROI is strongly negative.
 
 **Focus:** Data storytelling and statistical communication | **Tools:** Tableau
 
@@ -46,7 +46,7 @@ Fit a multivariate logistic regression model in R to predict 1-year mortality af
 ---
 
 ### 3. Movie Recommender System
-Built a user-based collaborative filtering system on the MovieLens small dataset (9,742 movies, 100,836 ratings, 610 users). Handled sparse ratings, computed user-user cosine similarity, and implemented an interactive function that produces top-10 personalized movie recommendations.
+Built a user based collaborative filtering system on the MovieLens small dataset (9,742 movies, 100,836 ratings, 610 users). Handled sparse ratings, computed user-user cosine similarity, and implemented an interactive function that produces top-10 personalized movie recommendations.
 
 **Focus:** Recommender systems, similarity-based ML | **Tools:** Python, pandas, NumPy, scikit-learn
 
@@ -60,7 +60,7 @@ Analyzed TSA complaint trends to identify when and where airport screening issue
 ---
 
 ### 5. Childcare Cost & Affordability Analysis
-Analyzed county-level childcare prices and affordability across the U.S. using over 3,000 county records. Quantified price-to-burden relationships, modeled a $2,000 annual subsidy scenario, and delivered findings as an executive summary, infographic, and social-media-ready visuals.
+Analyzed county-level childcare prices and affordability across the U.S. using over 3,000 county records. Quantified price-to-burden relationships, modeled a $2,000 annual subsidy scenario, and delivered findings as an executive summary, infographic, and social media ready visuals.
 
 **Focus:** Policy analysis, scenario modeling, visual communication | **Tools:** Python, correlation analysis, infographics
 
@@ -74,7 +74,7 @@ Built an end-to-end pipeline where Apache NiFi ingests a custom Titanic CSV into
 ---
 
 ### 7. Capstone – Initial Analytics *(placeholder)*
-Ongoing real-world capstone engagement. Covers problem framing, exploratory analysis, and initial visualizations connecting data signals to operational decisions for a client partner.
+Ongoing real world capstone engagement. Covers problem framing, exploratory analysis, and initial visualizations connecting data signals to operational decisions for a client partner.
 
 **Focus:** Stakeholder collaboration, problem framing, baseline analytics | **Tools:** TBD
 

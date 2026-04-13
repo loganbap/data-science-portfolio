@@ -6,9 +6,9 @@
 
 ## Overview
 
-This project demonstrates how the tools used in real-world enterprise data engineering — Apache NiFi, HDFS, Hive, Apache Spark, and HBase — work together in a coordinated pipeline. Using the classic Titanic dataset as a vehicle, the pipeline ingests raw CSV data, transforms it through a distributed file system and query layer, trains a machine learning classifier, and writes model performance metrics to a NoSQL store.
+This project demonstrates how the tools used in real world enterprise data engineering: Apache NiFi, HDFS, Hive, Apache Spark, and HBase, work together in a coordinated pipeline. Using the classic Titanic dataset as a vehicle, the pipeline ingests raw CSV data, transforms it through a distributed file system and query layer, trains a machine learning classifier, and writes model performance metrics to a NoSQL store.
 
-While the Titanic dataset is familiar, the goal here is not the model itself — it is demonstrating that each layer of a big-data stack can be wired together reliably and repeatably inside a containerized environment that mirrors production infrastructure.
+While the Titanic dataset is familiar, the goal here is not the model itself ,it is demonstrating that each layer of a big data stack can be wired together reliably and repeatably inside a containerized environment that mirrors production infrastructure.
 
 ---
 
@@ -57,11 +57,11 @@ While the Titanic dataset is familiar, the goal here is not the model itself —
 ### 1. Data Ingestion – Apache NiFi
 - Built a NiFi flow using **InvokeHTTP** to pull `titanic_custom.csv` directly from a GitHub raw URL.
 - Output routed through **PutHDFS** to write the file into a designated HDFS directory.
-- Flow configured with error-handling connections and logging for observability.
+- Flow configured with error handling connections and logging for observability.
 
 ### 2. Data Storage – HDFS
-- Raw CSV stored in `/user/loganbap/titanic/` on HDFS.
-- File confirmed via HDFS CLI (`hdfs dfs -ls /user/loganbap/titanic/`) before downstream processing.
+- Raw CSV stored in `/user/maria_dev/titanic/` on HDFS.
+- File confirmed via HDFS CLI (`hdfs dfs -ls`) before downstream processing.
 
 ### 3. Query Layer – Apache Hive
 - Created an **external Hive table** pointing to the HDFS directory:
@@ -83,7 +83,7 @@ While the Titanic dataset is familiar, the goal here is not the model itself —
   ROW FORMAT DELIMITED
   FIELDS TERMINATED BY ','
   STORED AS TEXTFILE
-  LOCATION '/user/loganbap/titanic/'
+  LOCATION '/user/maria_dev/titanic/'
   TBLPROPERTIES ('skip.header.line.count'='1');
   ```
 - Verified row counts and data types with HiveQL queries.

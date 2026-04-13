@@ -1,6 +1,6 @@
 # Titanic Big-Data ML Pipeline
 
-> An end-to-end big-data engineering and machine learning pipeline built on a production-style Hadoop/Spark stack using Docker.
+> An end to end big data engineering and machine learning pipeline built on a productions tyle Hadoop/Spark stack using Docker.
 
 ---
 
@@ -8,7 +8,7 @@
 
 This project demonstrates how the tools used in real world enterprise data engineering: Apache NiFi, HDFS, Hive, Apache Spark, and HBase, work together in a coordinated pipeline. Using the classic Titanic dataset as a vehicle, the pipeline ingests raw CSV data, transforms it through a distributed file system and query layer, trains a machine learning classifier, and writes model performance metrics to a NoSQL store.
 
-While the Titanic dataset is familiar, the goal here is not the model itself ,it is demonstrating that each layer of a big data stack can be wired together reliably and repeatably inside a containerized environment that mirrors production infrastructure.
+While the Titanic dataset is familiar, the goal here is not the model itself, it is demonstrating that each layer of a big data stack can be wired together reliably and repeatably inside a containerized environment that mirrors production infrastructure.
 
 ---
 

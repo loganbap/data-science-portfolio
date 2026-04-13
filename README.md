@@ -95,7 +95,7 @@ Final capstone phase: polished presentation, written report, and handoff materia
 ---
 
 ### 10. Visual Storytelling Gallery
-A curated collection of standout individual visualizations and dashboards from across multiple projects: covering lottery probability, aviation complaints, and childcare policy. Demonstrates breadth of visualization and narrative technique in a compact format.
+A curated collection of standout individual visualizations and dashboards from across multiple projects: covering lottery probability, aviation complaints, and childcare policy. Demonstrates breadth of visualization and narrative technique in a compact format. Ideally, incorporate this into a resume link or QR code. 
 
 **Focus:** Visualization breadth, narrative design | **Tools:** Tableau, PowerPoint
 

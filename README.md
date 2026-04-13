@@ -32,7 +32,7 @@ I am a generalist data scientist and analyst with a passion for turning complex 
 ## Project Summaries
 
 ### 1. Lottery Randomness & ROI Storytelling
-A multisheet Tableau story using several lottery CSV data sources to explain how drawings behave statistically across different U.S. games. Designed histograms, bubble charts, ROI distributions, and small multiples with annotations and parameters to debunk "hot number" and "lucky day" myths — and show that typical player ROI is strongly negative.
+A multisheet Tableau story using several lottery CSV data sources to explain how drawings behave statistically across different U.S. games. Designed histograms, bubble charts, ROI distributions, and small multiples with annotations and parameters to debunk "hot number" and "lucky day" myths and show that typical player ROI is strongly negative.
 
 **Focus:** Data storytelling and statistical communication | **Tools:** Tableau
 
@@ -53,21 +53,21 @@ Built a user based collaborative filtering system on the MovieLens small dataset
 ---
 
 ### 4. TSA Complaints Stakeholder Story
-Analyzed TSA complaint trends to identify when and where airport screening issues were most acute. Designed a PowerPoint data story using heatmaps, spatial maps, line charts, and box plots — framing findings around stakeholder decisions and benchmarking Charlotte Douglas (CLT) as a lower-complaint example.
+Analyzed TSA complaint trends to identify when and where airport screening issues were most acute. Designed a PowerPoint data story using heatmaps, spatial maps, line charts, and box plots framing findings around stakeholder decisions and benchmarking Charlotte Douglas (CLT) airport as a lower complaint example.
 
 **Focus:** Exploratory analysis, operational storytelling | **Tools:** PowerPoint, heatmaps, spatial maps
 
 ---
 
 ### 5. Childcare Cost & Affordability Analysis
-Analyzed county-level childcare prices and affordability across the U.S. using over 3,000 county records. Quantified price-to-burden relationships, modeled a $2,000 annual subsidy scenario, and delivered findings as an executive summary, infographic, and social media ready visuals.
+Analyzed county level childcare prices and affordability across the U.S. using over 3,000 county records. Quantified price to burden relationships, modeled a $2,000 annual subsidy scenario, and delivered findings as an executive summary, infographic, and social media ready visuals.
 
 **Focus:** Policy analysis, scenario modeling, visual communication | **Tools:** Python, correlation analysis, infographics
 
 ---
 
 ### 6. Titanic Big-Data ML Pipeline
-Built an end-to-end pipeline where Apache NiFi ingests a custom Titanic CSV into HDFS, Hive exposes the data as a managed table, and Spark ML trains a logistic regression classifier. Wrote model metrics to HBase — all running inside a Hadoop/Spark Docker cluster.
+Built an E2E pipeline where Apache NiFi ingests a custom Titanic CSV into HDFS, Hive exposes the data as a managed table, and Spark ML trains a logistic regression classifier. Wrote model metrics to HBase, all running inside a Hadoop/Spark Docker cluster.
 
 **Focus:** Big-data architecture, data engineering, ML integration | **Tools:** NiFi, HDFS, Hive, PySpark, HBase, Docker
 
@@ -83,19 +83,19 @@ Ongoing real world capstone engagement. Covers problem framing, exploratory anal
 ### 8. Capstone – Modeling & Recommendations *(placeholder)*
 Planned second capstone phase: predictive or explanatory models with clear feature importance explanations and practical recommendations for non-technical decision-makers.
 
-**Focus:** End-to-end modeling, storytelling for non-technical audiences | **Tools:** TBD
+**Focus:** E2E modeling, storytelling for non-technical audiences | **Tools:** TBD
 
 ---
 
 ### 9. Capstone – Final Presentation & Handoff *(placeholder)*
-Final capstone phase: polished presentation, written report, and handoff materials the client can continue to use — integrating visual dashboards, key takeaways, and workflow documentation.
+Final capstone phase: polished presentation, written report, and handoff materials the client can continue to use... integrating visual dashboards, key takeaways, and workflow documentation.
 
 **Focus:** Professional communication, documentation, real-world impact | **Tools:** TBD
 
 ---
 
 ### 10. Visual Storytelling Gallery
-A curated collection of standout individual visualizations and dashboards from across multiple projects — covering lottery probability, aviation complaints, and childcare policy. Demonstrates breadth of visualization and narrative technique in a compact format.
+A curated collection of standout individual visualizations and dashboards from across multiple projects: covering lottery probability, aviation complaints, and childcare policy. Demonstrates breadth of visualization and narrative technique in a compact format.
 
 **Focus:** Visualization breadth, narrative design | **Tools:** Tableau, PowerPoint
 

@@ -83,7 +83,7 @@ While the Titanic dataset is familiar, the goal here is not the model itself ,it
   ROW FORMAT DELIMITED
   FIELDS TERMINATED BY ','
   STORED AS TEXTFILE
-  LOCATION '/user/maria_dev/titanic/'
+  LOCATION '/user/loganbap/titanic/
   TBLPROPERTIES ('skip.header.line.count'='1');
   ```
 - Verified row counts and data types with HiveQL queries.
@@ -115,7 +115,7 @@ While the Titanic dataset is familiar, the goal here is not the model itself ,it
 | Test set size | ~179 records |
 | Feature count | 6 |
 
-> Note: The Titanic dataset is small by big-data standards. The value of this project is in the pipeline architecture and tool integration, not the model performance itself.
+> Note: The Titanic dataset is small by big data standards. The value of this project is in the pipeline architecture and tool integration, not the model performance itself.
 
 ---
 
